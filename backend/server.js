@@ -10,7 +10,7 @@ const app = express();
 // Middleware
 app.use(cors({
   origin: [
-    'https://digitalexpressindia.com/',
+    'https://digitalexpressindia.com',
     'http://localhost:5173'
   ],
   credentials: true
